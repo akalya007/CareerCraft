@@ -14,7 +14,7 @@ await connectDB()
 
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:5173",   //vitelisting the domain name.
+    origin:"https://careercraft-client.onrender.com",   //vitelisting the domain name.
     credentials:true,
 }));
 
